@@ -1,31 +1,38 @@
-# Nobrie Workspace Context
+# Nobriê Workspace Context
 
 ## Workspace Purpose
-This repository is the persistent, versioned workspace for Nobrie. It organizes context, operational state, decisions, tasks, references, memory, procedures, and outputs so AI agents can work with continuity and low context noise.
+This repository is the persistent, versioned Context Operating System for Nobriê. It is designed for continuity across AI sessions while keeping each task's context short, precise, relevant, and traceable.
 
-## Active Projects
-No Nobrie project has been ingested yet. Project information will be added only after source material is reviewed and classified.
+## Scope
+Nobriê only. Do not load or infer from IBBX or unrelated projects.
 
-## Context Map
-- Global operating rules: `_config/`
-- Current global state: `WORKSPACE_STATE.md`
-- Project-specific context: `projects/`
-- Durable memory: `memory/`
-- Shared references and knowledge: `shared/`
-- Unprocessed source material: `inbox/`
-- Procedures/commands: `commands/`
-- Reusable templates: `templates/`
-- Historical material: `archive/`
+## Context Layers
+- `context/` — stable Nobriê brand, product, and business knowledge
+- `profiles/` — domain-specific operating rules used for routing
+- `workflows/` — task procedures
+- `WORKSPACE_STATE.md` — current operational reality
+- `DECISIONS.md` — decision source of truth
+- `CONFLICTS.md` — unresolved conflicts only
+- `ROADMAP.md` — strategic fronts
+- `references/` — technical/reference material
+- `memory/` — durable reusable knowledge
+- `artifacts/` — prior work products consulted only when needed
+- `archive/` — historical material not loaded by default
 
-## Current Focus
-Establish and validate the Nobrie workspace operating system before ingesting company-specific source material.
+## Current Context
+Brand: Nobriê. Men's fashion positioned around old money / elite / premium. Main profile: `@nobrie.wear`. Strategic relationship with `@alejandro.tonin`.
 
-## Navigation Rules
-Use progressive disclosure. Do not load the repository indiscriminately. Start with `AGENTS.md`, then this file, then the relevant project/stage/state/decision/reference files required for the task.
+Current canonical product: Camisa Polo Piquet Nobriê. See `context/product.md` for product details.
 
-## Source of Truth
-Each operational fact should have one canonical home. Other documents should point to that source rather than duplicate the full content.
+## Routing examples
+- Creative analysis → brand + creative profile + creative-analysis workflow + validated references
+- New ad → brand + product + marketing/creative + relevant Ads/creative workflow
+- AddToCart duplication → Ads + tracking-debug + current tracking state
+- Bling issue → ecommerce + operations + ecommerce-integration/logistics-debug + current state + decision log
+- Shopify work → ecommerce/development + Shopify workflow + current store state
 
-## Status of This Context
-CONFIRMED: architecture and workflow design are based on the foundational workspace specification supplied for this project.
-PENDING: Nobrie-specific business knowledge, projects, entities, decisions, and operational state.
+## Context Packet
+`GLOBAL RULES → PROJECT CONTEXT → CURRENT STATE → PROFILE → WORKFLOW → RELEVANT DECISIONS → RELEVANT REFERENCES → RELEVANT MEMORY`
+
+## Current status
+The Nobriê source material has been classified into canonical architecture. Dated/current operational claims must still be freshly verified before consequential changes.
