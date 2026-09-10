@@ -12,3 +12,6 @@ Important structural and operational changes only.
 - Preserved unresolved tagline conflict rather than selecting a version arbitrarily.
 - Classified historical performance and integration findings as historical/contextual rather than permanent rules.
 - Kept the architecture intentionally minimal where additional directories would have no current function.
+- Updated current tracking state: AddToCart duplication is confirmed resolved.
+- Updated current tracking state: ViewContent value-completeness issue is confirmed resolved.
+- Closed the corresponding AddToCart and ViewContent tracking investigations while preserving them as historical context.
