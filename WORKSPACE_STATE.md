@@ -19,8 +19,10 @@ The repository is the Nobriê Context Operating System. Context is routed throug
 ## Tracking
 - Meta Purchase canonical origin: Yampi CAPI.
 - Purchase duplication was corrected by pausing the GTM Web `[Stape] Meta - Purchase` tag; correction was recorded as confirmed.
-- AddToCart duplication, Google Ads Purchase, and checkout Data Tags remain recorded investigations.
-- ViewContent value completeness remains an earlier-snapshot investigation.
+- AddToCart: CONFIRMED / RESOLVED. The previously investigated duplication issue was corrected and AddToCart is now treated as resolved current state.
+- ViewContent: CONFIRMED / RESOLVED. The previously investigated value-completeness issue was corrected and ViewContent is now treated as resolved current state.
+- Google Ads Purchase remains a recorded investigation.
+- Checkout Data Tags remain a recorded validation item.
 
 ## Shopify
 - Storefront: `nobrie.com`
@@ -32,4 +34,4 @@ The repository is the Nobriê Context Operating System. Context is routed throug
 Alejandro builds context/trust; Nobriê converts. Current funnel direction is ToFu first.
 
 ## State rule
-This file contains current operational state only. Historical evidence belongs in references/artifacts/archive and must not silently override newer verified state.
+This file contains current operational state only. Historical evidence belongs in references/artifacts/archive and must not silently override newer verified state. Resolved tracking issues remain historical context and must not be treated as open investigations unless new evidence indicates regression.
