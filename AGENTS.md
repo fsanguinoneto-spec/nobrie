@@ -1,58 +1,48 @@
-# AGENTS — Nobrie Workspace
+# AGENTS — Nobriê Workspace
 
-## Purpose
-This file is the workspace router. It defines how an AI agent must navigate, retrieve context, execute work, and persist meaningful changes in this repository.
+## Role
+This file is the router for the Nobriê Context Operating System. It is not the knowledge base.
 
-## Core principles
-- Treat the repository as the persistent, versioned workspace for Nobrie.
-- Use progressive context disclosure: start here, then load only the context required for the task.
-- Prefer canonical sources over duplicated summaries.
-- Separate stable knowledge, current operational state, decisions, tasks, outputs, and history.
-- Never invent missing Nobrie facts. Mark assumptions explicitly.
-- Current state takes priority over historical information.
-- Do not ingest the whole repository indiscriminately.
-- Do not treat generated outputs as permanent knowledge unless explicitly promoted.
-- Preserve provenance and traceability.
+## Scope
+This repository is exclusively for Nobriê. Do not import or infer information from IBBX or unrelated projects.
 
-## Navigation order
-1. `AGENTS.md`
-2. `CONTEXT.md`
-3. Relevant project under `projects/`
-4. Relevant stage under that project, when applicable
-5. Current state (`STATUS.md`, `TASKS.md`, `WORKSPACE_STATE.md`)
-6. Relevant decisions (`DECISIONS.md`)
-7. Relevant references under the project or `shared/`
-8. Specific files required by the task
+## Core behavior
+- Never invent Nobriê facts.
+- Use progressive disclosure and load the minimum sufficient context.
+- Prefer canonical, recently verified sources.
+- Keep current state separate from decisions, knowledge, tasks, references, artifacts, and history.
+- Preserve superseded decisions and provenance.
+- Treat historical Ads metrics as historical unless freshly verified.
+- Keep secrets out of Git.
+- Do not turn a single observation into a permanent rule.
 
-## Canonical locations
-- Global rules: `_config/`
-- Workspace map: `CONTEXT.md`
-- Global current state: `WORKSPACE_STATE.md`
-- Project context/state/tasks/decisions: `projects/<project>/`
-- Durable memory: `memory/`
-- Cross-project references: `shared/`
-- Unprocessed input: `inbox/`
-- Reusable procedures: `commands/`
-- Templates: `templates/`
-- Working outputs: `projects/<project>/output/`
-- Historical material: `archive/` or project `archive/`
+## Routing
+Start with `CONTEXT.md`, then route by task:
+- Brand/product → `context/brand.md`, `context/product.md`, relevant profile/workflow
+- Strategy → `context/business.md`, `profiles/strategy.md`, strategy workflow
+- Creative/content → brand + product + relevant creative/marketing profile + workflow
+- Ads → `profiles/ads.md` + Ads/tracking workflow + current state
+- Shopify → ecommerce/development profile + Shopify workflow + current store state
+- Integrations/logistics → ecommerce/operations profile + relevant integration workflow + current state
 
-## Execution protocol
-Before acting, identify the task domain and load the minimum sufficient context. After meaningful work, determine whether persistent information changed. If it did, synchronize the canonical files using the workflow in `commands/workspace-update.md`.
+## Context packet
+For execution, assemble only:
+`GLOBAL RULES + PROJECT CONTEXT + CURRENT STATE + PROFILE + WORKFLOW + RELEVANT DECISIONS + RELEVANT REFERENCES + RELEVANT MEMORY`.
 
-## Conflict protocol
-When sources conflict:
-1. Prefer the canonical operational source.
-2. Prefer newer confirmed information over older information.
-3. Do not silently overwrite a meaningful prior decision.
-4. Record a superseding decision when appropriate.
-5. Mark unresolved uncertainty explicitly.
+## Canonical sources
+- Project map: `CONTEXT.md`
+- Current operational state: `WORKSPACE_STATE.md`
+- Strategy roadmap: `ROADMAP.md`
+- Decisions: `DECISIONS.md`
+- Unresolved conflicts: `CONFLICTS.md`
+- Stable brand/product/business knowledge: `context/`
+- Domain operating rules: `profiles/`
+- Task procedures: `workflows/`
+- Durable reusable knowledge: `memory/`
+- Historical evidence: `archive/` and `artifacts/`
 
-## Safety and scope
-- Projects are isolated by default; do not leak context between projects without justification.
-- Do not expose secrets, credentials, personal data, or sensitive operational information unnecessarily.
-- Do not make destructive structural changes without explicit justification.
-- Do not delete historical knowledge merely because it is no longer current; archive or supersede it.
+## Synchronization
+After meaningful work, follow `commands/workspace-update.md`. A commit alone is not a workspace update.
 
-## Session continuity
-A new session must be able to reconstruct the relevant working context from repository files alone. Conversation history is supplementary, not the system of record.
+## Verification
+Never claim `WORKSPACE SYNCED` without checking the resulting canonical files and repository state.
