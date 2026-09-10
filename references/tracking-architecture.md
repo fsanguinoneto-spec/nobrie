@@ -10,6 +10,13 @@ Status: recorded architecture; verify operational state before modifying.
 
 Purchase from checkout is server-side. Pix should count when effectively paid.
 
+## Current Event Status
+- **Meta Purchase:** canonical origin remains Yampi CAPI. The GTM Web `[Stape] Meta - Purchase` tag was paused to eliminate the previously identified duplicate Purchase path.
+- **Meta AddToCart:** **CONFIRMED / RESOLVED**. The previously investigated duplication issue is closed and should not be treated as an open problem unless new evidence indicates regression.
+- **Meta ViewContent:** **CONFIRMED / RESOLVED**. The previously investigated value-completeness issue is closed and should not be treated as an open problem unless new evidence indicates regression.
+- **Google Ads Purchase:** remains a validation item; current implementation should be verified before being considered confirmed.
+- **Checkout Data Tags:** remain a validation item in the current state.
+
 ## Non-secret identifiers
 - Meta Pixel: `1145883260475396`
 - GTM Web: `GTM-PFGXDLZL`
