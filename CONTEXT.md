@@ -27,12 +27,13 @@ Current canonical product: Camisa Polo Piquet Nobriê. See `context/product.md` 
 ## Routing examples
 - Creative analysis → brand + creative profile + creative-analysis workflow + validated references
 - New ad → brand + product + marketing/creative + relevant Ads/creative workflow
+- Google Ads → `profiles/ads.md` + `workflows/google-ads/` + only the relevant current tracking/business state and evidence
 - AddToCart duplication → Ads + tracking-debug + current tracking state
 - Bling issue → ecommerce + operations + ecommerce-integration/logistics-debug + current state + decision log
-- Shopify work → ecommerce/development + Shopify workflow + current store state
+- Shopify work → ecommerce/development profile + Shopify workflow + current store state
 
 ## Context Packet
 `GLOBAL RULES → PROJECT CONTEXT → CURRENT STATE → PROFILE → WORKFLOW → RELEVANT DECISIONS → RELEVANT REFERENCES → RELEVANT MEMORY`
 
 ## Current status
-The Nobriê source material has been classified into canonical architecture. Dated/current operational claims must still be freshly verified before consequential changes.
+The Nobriê source material has been classified into canonical architecture. Dated/current operational claims must still be freshly verified before consequential changes. Google Ads is treated as a dedicated domain workflow with a from-zero strategic baseline, evidence-before-action diagnostics, and no automatic import of unrelated Meta Ads history.
