@@ -2,6 +2,14 @@
 
 Important structural and operational changes only.
 
+## 2026-09-11
+- Added a dedicated Google Ads workflow with minimum-sufficient-context routing.
+- Added evidence-before-action rules that separate configuration, implementation, reception, attribution, and performance diagnostics.
+- Added a conversion diagnostic gate and a validated-infrastructure guardrail to prevent premature recreation or modification of working tracking.
+- Established that Google Ads is being rebuilt from zero; the sparse 30-day report with zero recorded conversions is historical diagnostic evidence only.
+- Recorded Merchant Center disconnection as a current dependency for product-based Google Ads work; product history must not be fabricated.
+- Isolated Google Ads context from unrelated Meta Ads history unless explicitly relevant to the task.
+
 ## 2026-09-10
 - Initialized the Nobriê AI workspace architecture.
 - Ingested the provided Nobriê workspace specification.
