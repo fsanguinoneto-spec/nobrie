@@ -21,8 +21,15 @@ The repository is the Nobriê Context Operating System. Context is routed throug
 - Purchase duplication was corrected by pausing the GTM Web `[Stape] Meta - Purchase` tag; correction was recorded as confirmed.
 - AddToCart: CONFIRMED / RESOLVED. The previously investigated duplication issue was corrected and AddToCart is now treated as resolved current state.
 - ViewContent: CONFIRMED / RESOLVED. The previously investigated value-completeness issue was corrected and ViewContent is now treated as resolved current state.
-- Google Ads Purchase remains a recorded investigation.
+- Google Ads Purchase remains a recorded investigation. Current platform evidence shows `Compra - SS` as a Principal website conversion with manual event source and Inactive status. Inactivity alone is not treated as proof of broken implementation.
 - Checkout Data Tags remain a recorded validation item.
+
+## Google Ads
+- Google Ads is being rebuilt from zero as a new strategic baseline; sparse prior performance must not define campaign architecture, budgets, bidding, or benchmarks.
+- No native Google Ads integration is available in the connected workspace; use direct platform evidence and exports when historical/current data is required.
+- The latest available 30-day campaign report recorded 0 conversions despite spend. This is historical diagnostic evidence only; it does not establish a Google Ads performance or tracking root cause.
+- Merchant Center is currently disconnected, so product-performance export/history is unavailable. Do not fabricate or substitute product data.
+- Apply the dedicated `workflows/google-ads/` evidence-before-action and conversion diagnostic gates to Google Ads work.
 
 ## Shopify
 - Storefront: `nobrie.com`
