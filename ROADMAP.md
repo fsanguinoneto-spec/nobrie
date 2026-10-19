@@ -1,7 +1,7 @@
 # Nobriê Roadmap
 
 ## Current priorities
-1. Build the Nobriê Google Ads strategy and campaign architecture using the confirmed R$300/day total budget.
+1. Build and QA the user-approved initial Google Ads architecture with R$130/day total: Performance Max R$100, Demand Gen R$20, and brand Search R$10.
 2. Check Merchant Center feed health and product eligibility before launching product campaigns.
 3. Launch in a controlled manner and reconcile Google Ads results with actual Yampi/Shopify orders and revenue.
 4. Track Bling ticket `#5708717`.
@@ -10,7 +10,7 @@
 7. Evolve creative intelligence.
 8. Later, structure editing automation based on validated creative patterns.
 
-Tracking is considered resolved for Google Ads planning, and Merchant Center configured, per user confirmation on 2026-10-19. Do not reopen those workstreams absent new evidence.
+Tracking is considered resolved for Google Ads planning, and Merchant Center configured, per user confirmation on 2026-10-19. Initial budget is R$130/day (approximately R$3,900/30 days), with one PMAX, Demand Gen, and brand-protection Search; no generic Search or standalone YouTube campaign initially. Do not reopen tracking/Merchant Center setup absent new evidence.
 
 ## Strategic evolution
 After operational integrity and evidence are established:
