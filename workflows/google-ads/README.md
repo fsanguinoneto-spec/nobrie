@@ -160,3 +160,13 @@ When meaningful Google Ads work changes durable knowledge, state, task, decision
 
 ## Scope boundary
 This workflow contains only Google Ads-relevant context and procedures. Broader Nobriê rules remain governed by the global workspace architecture (`AGENTS.md`, `CONTEXT.md`, `WORKSPACE_STATE.md`, `DECISIONS.md`, and related canonical sources). Do not duplicate those global rules here beyond what is necessary for Google Ads operation.
+
+
+## Initial campaign architecture — proposal pending user approval
+Planning status: HYPOTHESIS, not a confirmed account change.
+- Generic Search: R$120/day to capture high-intent non-brand queries.
+- Performance Max: R$160/day, using the configured Merchant Center feed after a focused product eligibility check.
+- Brand Search: R$20/day to separate Nobriê brand demand from generic acquisition, only if meaningful brand search volume exists.
+- Total planning budget: R$300/day across all campaigns.
+- If brand search demand is too low, reallocate that portion to the campaigns with stronger evidence rather than forcing spend.
+- Before finalizing, validate query demand, product/feed eligibility, and current commercial economics. Do not launch or change live campaigns solely because this proposal is documented.
