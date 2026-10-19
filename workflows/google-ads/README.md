@@ -164,7 +164,7 @@ This workflow contains only Google Ads-relevant context and procedures. Broader 
 
 ## Initial campaign architecture — approved plan
 Planning status: CONFIRMED BY USER on 2026-10-19. This documents the plan only; no live Google Ads campaigns have been created or changed by this record.
-- Performance Max: R$100/day. Use one campaign with the configured Merchant Center feed after a focused eligibility check. Populate relevant audience signals, including eligible Analytics remarketing audiences and customer lists if available; signals guide the system and do not restrict delivery exclusively to those audiences.
+- Performance Max: R$100/day. The entire initial PMAX campaign is focused on Black Friday: ad copy, headlines, descriptions, creatives, and campaign assets must align with the Black Friday offer. Use the configured Merchant Center feed after a focused eligibility check. Populate relevant audience signals, including eligible Analytics remarketing audiences and customer lists if available; signals guide the system and do not restrict delivery exclusively to those audiences. Ensure the promotion, landing page, prices, dates, and claims match; do not invent or publish unconfirmed discounts or urgency claims.
 - Demand Gen: R$20/day as a limited demand-generation test; no separate YouTube-only campaign at launch.
 - Brand Search: R$10/day, limited to Nobriê brand protection and close brand variants. Do not initially target expensive generic queries such as “camisa polo” or “camisa polo masculina”. If brand demand is too low, do not force spend; reassess allocation based on evidence.
 - Total initial planning budget: R$130/day (approximately R$3,900 over 30 days).
