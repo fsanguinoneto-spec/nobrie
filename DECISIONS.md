@@ -40,3 +40,14 @@
 - Decision: Plan around a total average daily Google Ads budget of R$300 across campaigns, not R$300 per campaign.
 - Planning equivalent: approximately R$9,000 over 30 days; actual daily spend may fluctuate under Google Ads billing rules.
 - Guardrail: Allocate the total budget based on the agreed campaign architecture and evidence; do not treat the initial split as permanently fixed.
+
+
+## D-007 — Initial Google Ads campaign architecture and budget
+- Date: 2026-10-19
+- Status: CONFIRMED BY USER
+- Decision: Start with three campaigns and a total average daily budget of R$130: Performance Max R$100/day, Demand Gen R$20/day, and brand-protection Search R$10/day.
+- Planning equivalent: approximately R$3,900 over 30 days; actual daily spend may fluctuate under Google Ads billing rules.
+- Strategy: use one Performance Max campaign with relevant available audience signals, including eligible Analytics remarketing audiences and customer data where available. Do not activate the new-customer optimization setting at initial launch unless new evidence supports it.
+- Search scope: brand protection only; do not initially bid on expensive generic terms such as “camisa polo” or “camisa polo masculina”.
+- YouTube: no separate YouTube campaign at launch; Demand Gen is the limited demand-generation test.
+- Guardrail: this records the approved plan, not a claim that live campaigns have been created or changed. Check feed/product eligibility and campaign setup before launch.
