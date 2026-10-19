@@ -120,18 +120,20 @@ Do not infer from it that Google Ads cannot sell, that prior campaigns were poor
 The account also lacks a usable product-performance history for this workflow because the Merchant Center was disconnected, preventing the requested Products export. Do not fabricate product history or substitute unrelated data.
 
 ## Build-from-zero rule
-The ideal Google Ads architecture must be designed from current business economics, product/feed availability, tracking validity, commercial truth, campaign objectives, and fresh evidence—not inherited from the old campaign structure.
+Design the architecture from current business economics, feed/product eligibility, commercial truth, campaign objectives, and fresh evidence—not inherited from old campaign structure.
 
-## Merchant Center dependency
-Product-based campaign architecture must wait for a valid Merchant Center/feed foundation.
+## Budget rule
+The user-confirmed planning budget is R$300 average per day in total (approximately R$9,000 over 30 days). It is not a per-campaign budget. Recommend an initial allocation only after defining the campaign architecture, and record it as a testable decision rather than a permanent rule.
 
-A disconnected Merchant Center is a current dependency/blocker, not a reason to invent product data or reuse unsupported historical product assumptions.
+## Merchant Center readiness
+User-confirmed operating assumption (2026-10-19): Merchant Center is configured. Do not describe it as disconnected or make reconnection a prerequisite.
+Before launching product campaigns, verify that the feed is healthy and the intended products are approved and eligible. This is a focused readiness check, not a reason to rebuild the Merchant Center setup.
 
 ## Campaign readiness gate
-Do not create or launch campaigns until the required foundation is sufficiently ready:
-`TRACKING FOUNDATION → CONVERSION FOUNDATION → UTM/COMMERCIAL ATTRIBUTION VALIDATION → MERCHANT CENTER/FEED READINESS → ACCOUNT/OBJECTIVE DESIGN → CAMPAIGN ARCHITECTURE → CONTROLLED LAUNCH`.
+For this plan, the user has confirmed that tracking is resolved and Merchant Center is configured. Do not restart those workstreams absent contradictory evidence. Proceed in this order:
+`FEED/PRODUCT ELIGIBILITY CHECK → ACCOUNT/OBJECTIVE DESIGN → CAMPAIGN ARCHITECTURE → BUDGET ALLOCATION → CAMPAIGN BUILD/QA → CONTROLLED LAUNCH → PERFORMANCE REVIEW`.
 
-The workflow remains step-by-step. Do not jump from a tracking diagnosis directly into campaign construction.
+Work one step at a time. Real Google Ads attribution and commercial reconciliation should be monitored after launch; do not confuse that ongoing validation with a mandate to rebuild tracking.
 
 ## Decision discipline
 Every meaningful recommendation must state the evidence supporting it. Record confirmed facts separately from assumptions, hypotheses, historical observations, and deprecated/superseded information. Never turn a single observation into a permanent rule.
@@ -140,11 +142,12 @@ Every meaningful recommendation must state the evidence supporting it. Record co
 Work one step at a time. The workflow should progress from foundation/measurement → account/feed readiness → architecture → campaign construction → controlled launch → measurement → optimization → experiments → durable learnings.
 
 ## Current known Google Ads context
-- No native Google Ads integration is available in the connected workspace, so history must be obtained through exports or direct platform evidence when needed.
-- Existing 30-day report: 0 recorded conversions; retained only as historical diagnostic evidence.
-- Merchant Center: currently disconnected; product export unavailable.
-- Google Ads conversion `Compra - SS`: currently shown in Google Ads as a Principal website conversion with manual event source and Inactive status; the status alone is not sufficient to diagnose the implementation.
-- Google tags/tracking infrastructure was previously implemented and tested according to the Nobriê tracking work; treat that infrastructure as `VALIDATED` until contradictory evidence appears.
+- User-confirmed assumptions (2026-10-19): Merchant Center is configured; tracking is resolved; total average daily budget is R$300 across all campaigns.
+- No native Google Ads integration is available in the connected workspace, so performance history should be obtained through exports or direct platform evidence.
+- Existing 30-day report with 0 recorded conversions is historical diagnostic evidence only, not a strategy baseline.
+- Historical conversion statuses are not current blockers by themselves; do not reopen tracking absent new contradictory evidence.
+- Before product-campaign launch, check feed health and product eligibility.
+- Keep the R$300/day total budget distinct from the allocation between campaigns; decide allocation from the proposed architecture and business economics.
 
 ## Infrastructure troubleshooting rule
 When a Google Ads issue is detected, do not restart the entire tracking stack. Identify the affected layer first:
