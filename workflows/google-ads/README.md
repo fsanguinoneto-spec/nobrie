@@ -123,7 +123,7 @@ The account also lacks a usable product-performance history for this workflow be
 Design the architecture from current business economics, feed/product eligibility, commercial truth, campaign objectives, and fresh evidence—not inherited from old campaign structure.
 
 ## Budget rule
-The user-confirmed planning budget is R$300 average per day in total (approximately R$9,000 over 30 days). It is not a per-campaign budget. Recommend an initial allocation only after defining the campaign architecture, and record it as a testable decision rather than a permanent rule.
+The user-confirmed initial planning budget is R$130 average per day in total (approximately R$3,900 over 30 days). Approved initial allocation: Performance Max R$100/day, Demand Gen R$20/day, brand-protection Search R$10/day. It is not a per-campaign budget; actual daily spend may fluctuate under Google Ads billing rules.
 
 ## Merchant Center readiness
 User-confirmed operating assumption (2026-10-19): Merchant Center is configured. Do not describe it as disconnected or make reconnection a prerequisite.
@@ -142,7 +142,7 @@ Every meaningful recommendation must state the evidence supporting it. Record co
 Work one step at a time. The workflow should progress from foundation/measurement → account/feed readiness → architecture → campaign construction → controlled launch → measurement → optimization → experiments → durable learnings.
 
 ## Current known Google Ads context
-- User-confirmed assumptions (2026-10-19): Merchant Center is configured; tracking is resolved; total average daily budget is R$300 across all campaigns.
+- User-confirmed assumptions (2026-10-19): Merchant Center is configured; tracking is resolved for planning; initial total average daily budget is R$130 across all campaigns.
 - No native Google Ads integration is available in the connected workspace, so performance history should be obtained through exports or direct platform evidence.
 - Existing 30-day report with 0 recorded conversions is historical diagnostic evidence only, not a strategy baseline.
 - Historical conversion statuses are not current blockers by themselves; do not reopen tracking absent new contradictory evidence.
@@ -162,11 +162,11 @@ When meaningful Google Ads work changes durable knowledge, state, task, decision
 This workflow contains only Google Ads-relevant context and procedures. Broader Nobriê rules remain governed by the global workspace architecture (`AGENTS.md`, `CONTEXT.md`, `WORKSPACE_STATE.md`, `DECISIONS.md`, and related canonical sources). Do not duplicate those global rules here beyond what is necessary for Google Ads operation.
 
 
-## Initial campaign architecture — proposal pending user approval
-Planning status: HYPOTHESIS, not a confirmed account change.
-- Generic Search: R$120/day to capture high-intent non-brand queries.
-- Performance Max: R$160/day, using the configured Merchant Center feed after a focused product eligibility check.
-- Brand Search: R$20/day to separate Nobriê brand demand from generic acquisition, only if meaningful brand search volume exists.
-- Total planning budget: R$300/day across all campaigns.
-- If brand search demand is too low, reallocate that portion to the campaigns with stronger evidence rather than forcing spend.
-- Before finalizing, validate query demand, product/feed eligibility, and current commercial economics. Do not launch or change live campaigns solely because this proposal is documented.
+## Initial campaign architecture — approved plan
+Planning status: CONFIRMED BY USER on 2026-10-19. This documents the plan only; no live Google Ads campaigns have been created or changed by this record.
+- Performance Max: R$100/day. Use one campaign with the configured Merchant Center feed after a focused eligibility check. Populate relevant audience signals, including eligible Analytics remarketing audiences and customer lists if available; signals guide the system and do not restrict delivery exclusively to those audiences.
+- Demand Gen: R$20/day as a limited demand-generation test; no separate YouTube-only campaign at launch.
+- Brand Search: R$10/day, limited to Nobriê brand protection and close brand variants. Do not initially target expensive generic queries such as “camisa polo” or “camisa polo masculina”. If brand demand is too low, do not force spend; reassess allocation based on evidence.
+- Total initial planning budget: R$130/day (approximately R$3,900 over 30 days).
+- Leave “Otimizar para novos clientes” disabled initially; reconsider after validating conversion quality and available customer data.
+- Before launch, verify product/feed eligibility and the availability/eligibility of audience lists. Do not make changes to live campaigns solely because this plan is documented.
