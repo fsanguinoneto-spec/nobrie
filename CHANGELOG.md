@@ -3,6 +3,7 @@
 Important structural and operational changes only.
 
 ## 2026-10-19
+- Recorded the user-approved initial Google Ads structure: Performance Max R$100/day, Demand Gen R$20/day, and brand-protection Search R$10/day; total R$130/day (about R$3,900 per 30 days). No generic Search or standalone YouTube campaign initially; live campaigns were not modified by this documentation update.
 - Updated the Google Ads planning baseline per user confirmation: Merchant Center is configured, tracking is resolved for planning, and the total average daily budget is R$300.
 - Replaced the former Merchant Center-disconnected blocker with a focused pre-launch feed/product eligibility check.
 - Reordered the Google Ads workflow around feed readiness, campaign architecture, budget allocation, controlled launch, and performance review.
