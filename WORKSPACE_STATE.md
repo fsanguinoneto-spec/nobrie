@@ -17,19 +17,17 @@ The repository is the Nobriê Context Operating System. Context is routed throug
 - Frenet currently imports orders directly from Yampi.
 
 ## Tracking
-- Meta Purchase canonical origin: Yampi CAPI.
-- Purchase duplication was corrected by pausing the GTM Web `[Stape] Meta - Purchase` tag; correction was recorded as confirmed.
-- AddToCart: CONFIRMED / RESOLVED. The previously investigated duplication issue was corrected and AddToCart is now treated as resolved current state.
-- ViewContent: CONFIRMED / RESOLVED. The previously investigated value-completeness issue was corrected and ViewContent is now treated as resolved current state.
-- Google Ads Purchase remains a recorded investigation. Current platform evidence shows `Compra - SS` as a Principal website conversion with manual event source and Inactive status. Inactivity alone is not treated as proof of broken implementation.
-- Checkout Data Tags remain a recorded validation item.
+- User-confirmed operating assumption (2026-10-19): tracking is resolved for Google Ads planning.
+- Treat the Shopify + Yampi + GTM Web + sGTM/Stape + Google Ads measurement setup as operationally ready; do not rebuild or reopen it without new contradictory evidence.
+- Historical event-duplication fixes and conversion-status diagnostics remain historical context, not open blockers by default.
+- Monitor real Google Ads-attributed purchases and compare them with Yampi/Shopify orders and revenue after launch; this is ongoing performance validation, not a reason to restart the setup.
 
 ## Google Ads
-- Google Ads is being rebuilt from zero as a new strategic baseline; sparse prior performance must not define campaign architecture, budgets, bidding, or benchmarks.
-- No native Google Ads integration is available in the connected workspace; use direct platform evidence and exports when historical/current data is required.
-- The latest available 30-day campaign report recorded 0 conversions despite spend. This is historical diagnostic evidence only; it does not establish a Google Ads performance or tracking root cause.
-- Merchant Center is currently disconnected, so product-performance export/history is unavailable. Do not fabricate or substitute product data.
-- Apply the dedicated `workflows/google-ads/` evidence-before-action and conversion diagnostic gates to Google Ads work.
+- Rebuild Google Ads from zero as a strategic baseline; do not use sparse historical performance as a benchmark.
+- User-confirmed operating assumptions (2026-10-19): Merchant Center is configured; tracking is resolved; total average daily budget is R$300.
+- Before product campaigns launch, check that the Merchant Center feed is healthy and the intended products are approved and eligible. Do not treat the former disconnected status as current.
+- No native Google Ads integration is available in the connected workspace; use direct platform evidence and exports when performance data is needed.
+- Compare Google Ads-attributed purchases with UTM/source information, real orders, revenue, and margin. Google Ads is not the sole commercial truth.
 
 ## Shopify
 - Storefront: `nobrie.com`
