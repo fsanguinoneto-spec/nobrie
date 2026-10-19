@@ -24,7 +24,7 @@ The repository is the Nobriê Context Operating System. Context is routed throug
 
 ## Google Ads
 - Rebuild Google Ads from zero as a strategic baseline; do not use sparse historical performance as a benchmark.
-- User-confirmed operating assumptions (2026-10-19): Merchant Center is configured; tracking is resolved; total average daily budget is R$300.
+- User-confirmed operating assumptions (2026-10-19): Merchant Center is configured; tracking is resolved for planning; initial total Google Ads budget is R$130/day (R$3,900 per 30 days), allocated as Performance Max R$100/day, Demand Gen R$20/day, and brand-protection Search R$10/day. No YouTube-only campaign initially.
 - Before product campaigns launch, check that the Merchant Center feed is healthy and the intended products are approved and eligible. Do not treat the former disconnected status as current.
 - No native Google Ads integration is available in the connected workspace; use direct platform evidence and exports when performance data is needed.
 - Compare Google Ads-attributed purchases with UTM/source information, real orders, revenue, and margin. Google Ads is not the sole commercial truth.
