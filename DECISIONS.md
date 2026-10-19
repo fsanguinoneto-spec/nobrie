@@ -51,3 +51,10 @@
 - Search scope: brand protection only; do not initially bid on expensive generic terms such as “camisa polo” or “camisa polo masculina”.
 - YouTube: no separate YouTube campaign at launch; Demand Gen is the limited demand-generation test.
 - Guardrail: this records the approved plan, not a claim that live campaigns have been created or changed. Check feed/product eligibility and campaign setup before launch.
+
+
+## D-008 — Black Friday positioning for initial Performance Max
+- Date: 2026-10-19
+- Status: CONFIRMED BY USER
+- Decision: The initial Performance Max campaign (R$100/day) will be fully focused on Black Friday. Ad copy, creatives, headlines, descriptions, and campaign assets should use the Black Friday campaign concept and offer.
+- Guardrail: Keep the creative and offer consistent with the actual Black Friday promotion and the landing page. Do not publish unsupported discounts, prices, deadlines, or stock claims. This records the campaign strategy; it does not mean live ads have been changed.
