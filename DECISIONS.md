@@ -26,3 +26,17 @@
 - Status: CONFIRMED
 - Decision: Yampi remains the commercial truth for price and discount values.
 - Consequence: do not create artificial fixed discounts in Bling to correct commercial-value discrepancies.
+
+
+## D-005 — Google Ads planning baseline
+- Date: 2026-10-19
+- Status: CONFIRMED BY USER
+- Decision: For campaign planning, treat Merchant Center as configured and tracking as resolved. Do not reopen either workstream without new evidence of a problem.
+- Guardrail: Confirm product/feed eligibility before product campaigns; monitor real attributed purchases after launch without rebuilding the validated tracking stack by default.
+
+## D-006 — Google Ads daily budget
+- Date: 2026-10-19
+- Status: CONFIRMED BY USER
+- Decision: Plan around a total average daily Google Ads budget of R$300 across campaigns, not R$300 per campaign.
+- Planning equivalent: approximately R$9,000 over 30 days; actual daily spend may fluctuate under Google Ads billing rules.
+- Guardrail: Allocate the total budget based on the agreed campaign architecture and evidence; do not treat the initial split as permanently fixed.
