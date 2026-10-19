@@ -2,7 +2,7 @@
 
 ## Open
 - [ ] Confirm Merchant Center feed health and product approval/eligibility before launching product campaigns.
-- [ ] Design Google Ads campaign architecture and initial allocation within the total R$300/day budget.
+- [ ] Confirm the proposed Google Ads architecture and initial allocation (hypothesis: Search generic R$120/day, Performance Max R$160/day, brand Search R$20/day; brand budget depends on actual search demand).
 - [ ] Build and QA the first campaign(s), then launch in a controlled manner.
 - [ ] Monitor Bling ticket `#5708717` and validate native fix with a new untouched order when Bling responds.
 - [ ] Continue Purchase validation after duplicate-event correction.
