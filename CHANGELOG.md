@@ -2,6 +2,12 @@
 
 Important structural and operational changes only.
 
+## 2026-10-19
+- Updated the Google Ads planning baseline per user confirmation: Merchant Center is configured, tracking is resolved for planning, and the total average daily budget is R$300.
+- Replaced the former Merchant Center-disconnected blocker with a focused pre-launch feed/product eligibility check.
+- Reordered the Google Ads workflow around feed readiness, campaign architecture, budget allocation, controlled launch, and performance review.
+- Updated roadmap and tasks to prioritize campaign architecture and launch within the total budget.
+
 ## 2026-09-11
 - Added a dedicated Google Ads workflow with minimum-sufficient-context routing.
 - Added evidence-before-action rules that separate configuration, implementation, reception, attribution, and performance diagnostics.
