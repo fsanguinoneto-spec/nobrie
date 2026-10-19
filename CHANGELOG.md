@@ -3,6 +3,7 @@
 Important structural and operational changes only.
 
 ## 2026-10-19
+- Recorded the user's decision that the initial R$100/day Performance Max campaign will be fully Black Friday-focused, including ad copy and creative assets; campaign claims must match the confirmed offer and landing page.
 - Recorded the user-approved initial Google Ads structure: Performance Max R$100/day, Demand Gen R$20/day, and brand-protection Search R$10/day; total R$130/day (about R$3,900 per 30 days). No generic Search or standalone YouTube campaign initially; live campaigns were not modified by this documentation update.
 - Updated the Google Ads planning baseline per user confirmation: Merchant Center is configured, tracking is resolved for planning, and the total average daily budget is R$300.
 - Replaced the former Merchant Center-disconnected blocker with a focused pre-launch feed/product eligibility check.
